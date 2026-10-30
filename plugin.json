@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.autopilot",
+  "version": "0.1.0",
+  "description": "A positioning-first launch companion. Choose one job, define the market position and narrow ICP, then derive outreach and copy from the same strategy before running bounded Ryu work.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-autopilot",
+  "repository": "https://github.com/amajorai/ryu-autopilot",
+  "keywords": ["positioning", "ICP", "outreach", "copy", "launch strategy"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/autopilot",
+      "displayName": "Autopilot"
+    }
+  }
+}
